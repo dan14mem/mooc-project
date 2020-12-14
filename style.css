@@ -7,10 +7,27 @@ h1, h2, h3, h4, p, li {
     margin-right: 20%;
     font-family: 'Lato', sans-serif;
 }
+h1, h2, h3, h4 {
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 30px;
+}
 .picture {
+
+    max-width: 80%;
+    height:auto;
     margin-left: 20%;
     margin-right: 20%;
-    size: 70%;
+}
+.links {
+    list-style: none;
 }
 
 * {box-sizing:border-box}
